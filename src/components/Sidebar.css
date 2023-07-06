@@ -1,0 +1,26 @@
+.sidebar{
+    /* border: 1px solid black; */
+    height: 100vh;
+    flex: 0.2; /*Sidebar uses up 20% of display */
+    color: white;
+    min-width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #040404;
+}
+
+.sidebar__logo{
+    /* One way to keep the aspect ratio of logo intact while adjusting height & width:
+    object-fit: contain; 
+    width: 100px; */
+    margin-right: auto;
+    height: 70px;
+    padding: 10px;
+    
+}
+
+.sidebar_title{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
